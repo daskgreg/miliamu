@@ -1,0 +1,8 @@
+@font-face {
+    font-family:'bolden';
+    src: url(./assets/fonts/BoldenVan.ttf) format('truetype');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

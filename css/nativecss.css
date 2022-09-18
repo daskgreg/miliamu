@@ -1,0 +1,37 @@
+@font-face {
+    font-family:'bolden';
+    src: url(../assets/fonts/BoldenVan.ttf) format('truetype');
+}
+
+.loop {
+    -webkit-animation: mymove 2s linear infinite; /* Safari 4.0 - 8.0 */
+    white-space: nowrap;
+    animation: mymove 2s linear infinite alternate;
+  }
+  
+  
+.txtstyle{
+    font-size:30px;
+    font-family: 'bolden';
+}
+.discount{
+        margin: 1em auto;
+        overflow: hidden;
+        position: relative;
+        min-height: 4em;
+}
+.loop {
+    white-space: nowrap;
+    position: absolute;
+    text-transform: uppercase;
+  }
+@keyframes mymove {
+    from {
+      left: 0;
+    }
+    to {
+      left: -140px;
+    }
+  }
+  
+  
